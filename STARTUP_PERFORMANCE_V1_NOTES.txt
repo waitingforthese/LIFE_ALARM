@@ -1,0 +1,29 @@
+LIFE ALARM — STARTUP PERFORMANCE V1
+
+BASELINE:
+- Source baseline received as test7-main.zip.
+- Existing LifeAlarm logo/name, 12 alarm switches, sound/vibration, duplicate control, live GPS, location-specific Prahar and Lagna are preserved.
+- Masa calculation remains disabled as in the supplied baseline.
+
+CHANGES IN THIS V1:
+1) Moon next-event searches no longer scan thousands of 1-minute Swiss Ephemeris points. They use safe coarse astronomical intervals followed by binary refinement.
+2) Sun next-event searches no longer scan tens of thousands of 1-minute points. They use safe coarse intervals followed by binary refinement.
+3) Moon/Sun calculations reuse one SwissEph instance during each state calculation.
+4) Panchang boundary searches reuse the SwissEph instance already created for the calculation instead of creating a new one for every boundary.
+5) On a fresh install, the UI waits for the first GPS fix instead of calculating once for Pune/default coordinates and immediately calculating again for GPS.
+6) Small GPS jitter (<0.001 degree) no longer restarts the complete Panchang calculation.
+7) Alarm rescheduling after location/calculation is deferred until the location-specific calculation has completed, reducing concurrent heavy calculations during startup.
+8) Version bumped to 2.5 / versionCode 5.
+
+IMPORTANT TEST STATUS:
+- ZIP structure and source edits were checked locally.
+- Full Gradle/Android compile could not be executed in this environment because the Gradle executable/cache is not available.
+- Therefore this is a build-candidate, not a claimed compile-tested APK.
+
+NEXT TEST:
+- Build in GitHub Actions.
+- Install APK.
+- Measure startup time.
+- Verify Moon/Sun current state.
+- Verify location-specific Prahar/Lagna.
+- Verify all 12 alarms, sound/vibration, duplicate control, Settings Save, reboot.
