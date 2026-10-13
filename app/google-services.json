@@ -1,0 +1,181 @@
+{
+  "project_info": {
+    "project_number": "635481756457",
+    "firebase_url": "https://my-accountant-e5b00-default-rtdb.firebaseio.com",
+    "project_id": "my-accountant-e5b00",
+    "storage_bucket": "my-accountant-e5b00.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635481756457:android:33a190196e8a1af84f1d38",
+        "android_client_info": {
+          "package_name": "rahul.jagtap.lifealarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635481756457-ps3hut2sv40acosmnujskak5nh16r9g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA64XgJnsCn7NA5qTVDcz-8WvMY2Djt24o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635481756457-ps3hut2sv40acosmnujskak5nh16r9g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635481756457:android:cdbb394d7c3ffd524f1d38",
+        "android_client_info": {
+          "package_name": "rahul.jagtap.myaccountant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635481756457-1p76bjkgilk30irq7jd0s0rao74ee2r0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "4742abeaa8bb5d9ce68a8769065d49050a671972"
+          }
+        },
+        {
+          "client_id": "635481756457-60e1os496boel9fqmqjnh4c1rae0tdr2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "deafd76ae0e4948c2da800c34c42f02ef31aace6"
+          }
+        },
+        {
+          "client_id": "635481756457-aggdi8k6uqvnshctdsofht7vqumamqnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "71c47189ebc25da8e590c00d6921e45b4284c14c"
+          }
+        },
+        {
+          "client_id": "635481756457-br0pmrpv6ruk5br8igb3v9bfsh2au6p1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "bd834e825e34ee9c24c6ed9ba90f8cb98a356b8c"
+          }
+        },
+        {
+          "client_id": "635481756457-d04kkks3lt7uo80g2t5gsi7aa9ud2qlh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "0e806fee88ec5814d9da6eba20b31d61b1f0a157"
+          }
+        },
+        {
+          "client_id": "635481756457-fhlke7srrbl1ea4b9gaotchl5ja57n1h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "d8fa6ab024ea9d744be600973e8a51c3e2ed4906"
+          }
+        },
+        {
+          "client_id": "635481756457-j2ki41lrg08po2v41uc6gb3v2m57viu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "c084c47a23df474cf5ccf29d2722fb3d68604864"
+          }
+        },
+        {
+          "client_id": "635481756457-jsula6p5csa61hvfch5jd8unl563qkmf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "969e1f01b018d51bcd6da5ae980b2a3e068edcee"
+          }
+        },
+        {
+          "client_id": "635481756457-khvusj30c442b8foi3idrk69tv22bcj4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "a52d3e64ebb978fd54cdce39ba55566bf6b53da7"
+          }
+        },
+        {
+          "client_id": "635481756457-kjiauj3uidt78vevsnv2pcbqmp2ivkpf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "addca094b51d85fc9e40008937e932ded5ce9855"
+          }
+        },
+        {
+          "client_id": "635481756457-mln5bd2ps3mjfjf0kdnhv709mp406rth.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "4e3a4c8009f7ab56f5432f159a27aa2e22fb82f4"
+          }
+        },
+        {
+          "client_id": "635481756457-n5c8j9o5rs63lclotpttuatkbgm4o6f3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "9de583b4c62f8793c29021223039a31b4a61c379"
+          }
+        },
+        {
+          "client_id": "635481756457-nal0sn2s80gtrc2b83sdv6euc7guv56v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "c7539f5eb81bf2949c4b35ec1b71f35e64f6a166"
+          }
+        },
+        {
+          "client_id": "635481756457-r92bdpkn0c9lnv43davm99h9s4n8n7ib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.myaccountant",
+            "certificate_hash": "adecb6c9c558dbc1ac0445697a5109d3d96e358c"
+          }
+        },
+        {
+          "client_id": "635481756457-ps3hut2sv40acosmnujskak5nh16r9g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA64XgJnsCn7NA5qTVDcz-8WvMY2Djt24o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635481756457-ps3hut2sv40acosmnujskak5nh16r9g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
