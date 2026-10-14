@@ -1,0 +1,9 @@
+package rahul.jagtap.life_alarm.widget.areditor.spans;
+
+/**
+ * Created by wliu on 2018/4/5.
+ */
+
+public interface AreDynamicSpan {
+    public int getDynamicFeature();
+}
