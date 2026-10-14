@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <!-- Needed to read active subscriptions and line1Number (if available) -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <!--<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>-->
+    <queries>
+        <package android:name="com.whatsapp" />
+    </queries>
+    <queries>
+        <package android:name="com.phonepe.app" />								<!-- PhonePe Prod-->
+        <package android:name="com.phonepe.app.preprod" />						<!--// PhonePe UAT-->
+        <package android:name="com.google.android.apps.nbu.paisa.user" />		<!--// GPay-->
+        <package android:name="net.one97.paytm" />								<!--// Paytm-->
+        <package android:name="in.org.npci.upiapp" />							<!--// BHIM-->
+        <package android:name="in.amazon.mShop.android.shopping" />			<!--// AmazonPay-->
+    </queries>
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.SENDTO" />
+            <data android:scheme="smsto"/>
+        </intent>
+    </queries>
+
+    <application
+        android:name="rahul.jagtap.life_alarm.App"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+        <activity
+            android:name="rahul.jagtap.life_alarm.LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="rahul.jagtap.life_alarm.RegisterActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.ForgotPasswordActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.ViewShopBillsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.FullScreenImageActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.admin.NotificationsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+        <activity
+            android:name="rahul.jagtap.life_alarm.admin.bills.BillDatesActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.admin.bills.BillUsersActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.admin.bills.BillsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.ContactActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.EditContactActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.user.TrainingVideoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.admin.EditTrainingVideoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.admin.BlockUnblockUserActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+        <activity
+            android:name="rahul.jagtap.life_alarm.PaymentDetailsActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.WebviewActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.AboutTeamActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.HowToUseActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.admin.SelectUserActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.PayByUpiActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        
+        <activity
+            android:name="rahul.jagtap.life_alarm.AccountingMenuActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+        <activity
+            android:name="rahul.jagtap.life_alarm.TutorialActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.admin.UsersActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        
+        <activity
+            android:name="rahul.jagtap.life_alarm.EditUserActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+        <activity
+            android:name="rahul.jagtap.life_alarm.admin.TextMsgActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.admin.AddTextMsgActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.GovtSchemesInfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name="rahul.jagtap.life_alarm.AddGovtSchemeInfoActivity"
+            android:label="@string/app_name"
+            android:theme="@style/NoActionBarTheme"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+       <activity
+            android:name="rahul.jagtap.life_alarm.TermsConditionsActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+
+
+        <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/ad_application_id"/>
+
+        <meta-data
+            android:name="com.google.android.gms.auth.api.signin.CLIENT_ID"
+            android:value="@string/google_signin_client_id" />
+<!--            android:value="408121252150-6jt40ge21uidebql4b3h5t3kvkb0clem.apps.googleusercontent.com" />-->
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="rahul.jagtap.life_alarm.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>
