@@ -8,12 +8,97 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:635481756457:android:fc668e52f182c50b4f1d38",
+        "android_client_info": {
+          "package_name": "rahul.jagtap.life_alarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635481756457-ps3hut2sv40acosmnujskak5nh16r9g6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA64XgJnsCn7NA5qTVDcz-8WvMY2Djt24o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635481756457-ps3hut2sv40acosmnujskak5nh16r9g6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:635481756457:android:33a190196e8a1af84f1d38",
         "android_client_info": {
           "package_name": "rahul.jagtap.lifealarm"
         }
       },
       "oauth_client": [
+        {
+          "client_id": "635481756457-06bj4a01n5okbthtnmkaspqn588bjhqk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.lifealarm",
+            "certificate_hash": "d50ff3c402993cbc5a22d4b7b0b8531dee23cada"
+          }
+        },
+        {
+          "client_id": "635481756457-4h9976idghvf2t82skp80gs32ng04mol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.lifealarm",
+            "certificate_hash": "d88846ac5ba58ca668e132ae2cba0b184c41d02d"
+          }
+        },
+        {
+          "client_id": "635481756457-819edqlm001r212gdbp2fjdh2tev9jt6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.lifealarm",
+            "certificate_hash": "d17014e37996974a335a7d042473ae43648616df"
+          }
+        },
+        {
+          "client_id": "635481756457-bpk8abtsfpu9cnd3saahpv0cljl5c1au.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.lifealarm",
+            "certificate_hash": "b37970b8195af9edb0a234d0aa1e360c3c9c91ac"
+          }
+        },
+        {
+          "client_id": "635481756457-gtu1tfcre3gjbq59if3qnjf4reqabkpl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.lifealarm",
+            "certificate_hash": "9ce2babe93dc57b044e38ba6d6e01b2b41877ec5"
+          }
+        },
+        {
+          "client_id": "635481756457-rqcj7j7mj9co1c074jofr7nkk9mrj94g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.lifealarm",
+            "certificate_hash": "efbdfb5e15991847dd1dff5cfa319bba9c669d93"
+          }
+        },
+        {
+          "client_id": "635481756457-umngasj94qb78t44c506ghsatd2r8rom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rahul.jagtap.lifealarm",
+            "certificate_hash": "01baf61486fd29a643e1fde9a3677664951bef7f"
+          }
+        },
         {
           "client_id": "635481756457-ps3hut2sv40acosmnujskak5nh16r9g6.apps.googleusercontent.com",
           "client_type": 3
